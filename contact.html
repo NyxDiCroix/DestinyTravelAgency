@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html>
+<meta_charset="utf-8">
+
+<!-- 
+Edwin A. Cruz Landrau
+Curso ITP2350
+16 de octubre de 2021
+Actividad Laboratorio 3: Desarrollando una plantilla simple para un website
+-->     
+
+<head>
+    
+    <title> Destiny Travel </title>
+        <!-- se añadio un EXTERNAL style sheet --> 
+    <link href= "SiteStyle/global.css" type="text/css" rel="stylesheet" />
+</head>
+
+<!-- se añadió un atributo id -->
+<body id="contenido">
+    
+<nav>
+        <div class="navigation-container">
+
+            <img src="SiteImage/Destiny-logo.png" alt="Destiny Logo">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            
+        </div>
+</nav>    
+    
+    <div class="contact">
+        <h1> <p> CONTACT US </p></h1>
+        <h2>
+            <ul>
+                <li>Tel: 1-787-123-4567</li>
+                <li>1234 Calle del Barrio</li>
+                <li>San Juan, PR 00901</li>
+            </ul>
+            
+            </h2>
+        
+        
+    </div>
+    
+        <div class="contact_form">
+
+            
+        <form action="form.php" method="post">
+        <fieldset>
+            <legend><h1>Email Us</h1></legend>
+            <label for="name"> Email:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email"> Subject:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="comments"> Message:</label>
+            <textarea cols="25" rows="5" name="comments" required></textarea>
+            <br>
+            <br>
+            <input type="submit" name="Submit" value="Submit" id="submit">
+        </fieldset>
+    </form>
+
+
+</div>    
+    
+    
+    
+    
+<footer>
+    
+    <div class="footer">  
+<footer>
+    
+<address>
+
+    <p>Edwin A. Cruz Landrau</p>
+
+    <p>curso ITP2350</p>
+
+<a href="mailto:edwin.cruz.landrau@live.edpuniversity.edu">edwin.cruz.landrau@live.edpuniversity.edu</a><br> 
+
+</address>
+    
+</footer>
+    </div>
+    
+</footer>
+    
+</body>
+
+    </html>
